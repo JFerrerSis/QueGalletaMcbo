@@ -1,0 +1,24 @@
+{
+  "name": "que-galleta",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "bun@1.4.4",
+  "scripts": {
+    "dev": "astro dev --host",
+    "start": "astro dev --host",
+    "build": "astro build",
+    "preview": "astro preview --host",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "astro": "^5.14.1",
+    "gsap": "^3.13.0",
+    "tailwindcss": "^4.1.14",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.180.0"
+  }
+}
